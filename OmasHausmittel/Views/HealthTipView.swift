@@ -8,11 +8,27 @@
 import SwiftUI
 
 struct HealthTipView: View {
+    @EnvironmentObject private var viewModel: ItemViewModel
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            NavigationView {
+                List(viewModel.healthTips) { item in
+                    Button(action: {
+                        viewModel.index = item.index
+                        viewModel.isDetailViewActive = true
+                    }) {
+                        Text(item.title)
+                    }
+                }
+                .navigationTitle("Gesundheitstipps")
+                .sheet(isPresented: $viewModel.isDetailViewActive) {
+                    DetailView(item: viewModel.healthTips[viewModel.index])
+                }
+            }
+        }
     }
-}
 
 #Preview {
     HealthTipView()
+        .environmentObject(ItemViewModel())
 }

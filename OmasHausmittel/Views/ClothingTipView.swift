@@ -8,11 +8,26 @@
 import SwiftUI
 
 struct ClothingTipView: View {
+    @EnvironmentObject private var viewModel: ItemViewModel
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List(viewModel.clothingTips) { item in
+                Button(action: {
+                    viewModel.index = item.index
+                    viewModel.isDetailViewActive = true
+                }) {
+                    Text(item.title)
+                }
+            }
+            .navigationTitle("Kleidungstipps")
+            .sheet(isPresented: $viewModel.isDetailViewActive) {
+                DetailView(item: viewModel.clothingTips[viewModel.index])
+            }
+        }
     }
 }
-
 #Preview {
     ClothingTipView()
+        .environmentObject(ItemViewModel())
 }

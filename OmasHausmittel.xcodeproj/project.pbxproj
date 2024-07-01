@@ -8,12 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		86D5F94E2C31B47C005B0938 /* OmasHausmittelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D5F94D2C31B47C005B0938 /* OmasHausmittelApp.swift */; };
-		86D5F9502C31B47C005B0938 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D5F94F2C31B47C005B0938 /* ContentView.swift */; };
 		86D5F9522C31B47D005B0938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86D5F9512C31B47D005B0938 /* Assets.xcassets */; };
 		86D5F9552C31B47D005B0938 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86D5F9542C31B47D005B0938 /* Preview Assets.xcassets */; };
 		86D5F95F2C31B47D005B0938 /* OmasHausmittelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D5F95E2C31B47D005B0938 /* OmasHausmittelTests.swift */; };
 		86D5F9692C31B47D005B0938 /* OmasHausmittelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D5F9682C31B47D005B0938 /* OmasHausmittelUITests.swift */; };
 		86D5F96B2C31B47D005B0938 /* OmasHausmittelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D5F96A2C31B47D005B0938 /* OmasHausmittelUITestsLaunchTests.swift */; };
+		86D5F9802C32013F005B0938 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D5F97F2C32013F005B0938 /* ViewRouter.swift */; };
+		86D5F9832C32909B005B0938 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D5F9822C32909B005B0938 /* SplashView.swift */; };
+		86D5F9852C32D0C6005B0938 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D5F9842C32D0C6005B0938 /* MainView.swift */; };
+		86D5F9882C32D561005B0938 /* CustomCubeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D5F9872C32D561005B0938 /* CustomCubeButton.swift */; };
+		86D5F98A2C32D675005B0938 /* GrandmotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D5F9892C32D675005B0938 /* GrandmotherView.swift */; };
+		86D5F98C2C32DC16005B0938 /* CleaningTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D5F98B2C32DC16005B0938 /* CleaningTipView.swift */; };
+		86D5F98E2C32E025005B0938 /* LifehackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D5F98D2C32E025005B0938 /* LifehackView.swift */; };
+		86D5F9902C32E0D4005B0938 /* KitchenTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D5F98F2C32E0D4005B0938 /* KitchenTipView.swift */; };
+		86D5F9922C32E0E4005B0938 /* ClothingTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D5F9912C32E0E4005B0938 /* ClothingTipView.swift */; };
+		86D5F9942C32E0F0005B0938 /* HealthTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D5F9932C32E0F0005B0938 /* HealthTipView.swift */; };
+		86D5F9962C32E12A005B0938 /* CustomLongButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D5F9952C32E12A005B0938 /* CustomLongButton.swift */; };
+		86D5F99B2C32E227005B0938 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D5F99A2C32E227005B0938 /* Item.swift */; };
+		86D5F99E2C32E258005B0938 /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D5F99D2C32E258005B0938 /* ItemViewModel.swift */; };
+		86D5F9A02C32E2AD005B0938 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D5F99F2C32E2AD005B0938 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +49,6 @@
 /* Begin PBXFileReference section */
 		86D5F94A2C31B47C005B0938 /* OmasHausmittel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OmasHausmittel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86D5F94D2C31B47C005B0938 /* OmasHausmittelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmasHausmittelApp.swift; sourceTree = "<group>"; };
-		86D5F94F2C31B47C005B0938 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		86D5F9512C31B47D005B0938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86D5F9542C31B47D005B0938 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		86D5F95A2C31B47D005B0938 /* OmasHausmittelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmasHausmittelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +56,20 @@
 		86D5F9642C31B47D005B0938 /* OmasHausmittelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmasHausmittelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86D5F9682C31B47D005B0938 /* OmasHausmittelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmasHausmittelUITests.swift; sourceTree = "<group>"; };
 		86D5F96A2C31B47D005B0938 /* OmasHausmittelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmasHausmittelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		86D5F97F2C32013F005B0938 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		86D5F9822C32909B005B0938 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		86D5F9842C32D0C6005B0938 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		86D5F9872C32D561005B0938 /* CustomCubeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCubeButton.swift; sourceTree = "<group>"; };
+		86D5F9892C32D675005B0938 /* GrandmotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrandmotherView.swift; sourceTree = "<group>"; };
+		86D5F98B2C32DC16005B0938 /* CleaningTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleaningTipView.swift; sourceTree = "<group>"; };
+		86D5F98D2C32E025005B0938 /* LifehackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifehackView.swift; sourceTree = "<group>"; };
+		86D5F98F2C32E0D4005B0938 /* KitchenTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenTipView.swift; sourceTree = "<group>"; };
+		86D5F9912C32E0E4005B0938 /* ClothingTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingTipView.swift; sourceTree = "<group>"; };
+		86D5F9932C32E0F0005B0938 /* HealthTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTipView.swift; sourceTree = "<group>"; };
+		86D5F9952C32E12A005B0938 /* CustomLongButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLongButton.swift; sourceTree = "<group>"; };
+		86D5F99A2C32E227005B0938 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		86D5F99D2C32E258005B0938 /* ItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewModel.swift; sourceTree = "<group>"; };
+		86D5F99F2C32E2AD005B0938 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +120,10 @@
 		86D5F94C2C31B47C005B0938 /* OmasHausmittel */ = {
 			isa = PBXGroup;
 			children = (
+				86D5F9862C32D556005B0938 /* Utils */,
+				86D5F9812C32907A005B0938 /* Views */,
 				86D5F94D2C31B47C005B0938 /* OmasHausmittelApp.swift */,
-				86D5F94F2C31B47C005B0938 /* ContentView.swift */,
+				86D5F97F2C32013F005B0938 /* ViewRouter.swift */,
 				86D5F9512C31B47D005B0938 /* Assets.xcassets */,
 				86D5F9532C31B47D005B0938 /* Preview Content */,
 			);
@@ -125,6 +153,49 @@
 				86D5F96A2C31B47D005B0938 /* OmasHausmittelUITestsLaunchTests.swift */,
 			);
 			path = OmasHausmittelUITests;
+			sourceTree = "<group>";
+		};
+		86D5F9812C32907A005B0938 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				86D5F99C2C32E249005B0938 /* ViewModel */,
+				86D5F9972C32E210005B0938 /* Model */,
+				86D5F9822C32909B005B0938 /* SplashView.swift */,
+				86D5F9842C32D0C6005B0938 /* MainView.swift */,
+				86D5F9892C32D675005B0938 /* GrandmotherView.swift */,
+				86D5F98B2C32DC16005B0938 /* CleaningTipView.swift */,
+				86D5F98D2C32E025005B0938 /* LifehackView.swift */,
+				86D5F98F2C32E0D4005B0938 /* KitchenTipView.swift */,
+				86D5F9912C32E0E4005B0938 /* ClothingTipView.swift */,
+				86D5F9932C32E0F0005B0938 /* HealthTipView.swift */,
+				86D5F99F2C32E2AD005B0938 /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		86D5F9862C32D556005B0938 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				86D5F9872C32D561005B0938 /* CustomCubeButton.swift */,
+				86D5F9952C32E12A005B0938 /* CustomLongButton.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		86D5F9972C32E210005B0938 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				86D5F99A2C32E227005B0938 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		86D5F99C2C32E249005B0938 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				86D5F99D2C32E258005B0938 /* ItemViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +328,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86D5F9502C31B47C005B0938 /* ContentView.swift in Sources */,
+				86D5F9922C32E0E4005B0938 /* ClothingTipView.swift in Sources */,
+				86D5F9802C32013F005B0938 /* ViewRouter.swift in Sources */,
+				86D5F9902C32E0D4005B0938 /* KitchenTipView.swift in Sources */,
+				86D5F99E2C32E258005B0938 /* ItemViewModel.swift in Sources */,
+				86D5F9852C32D0C6005B0938 /* MainView.swift in Sources */,
 				86D5F94E2C31B47C005B0938 /* OmasHausmittelApp.swift in Sources */,
+				86D5F9832C32909B005B0938 /* SplashView.swift in Sources */,
+				86D5F98C2C32DC16005B0938 /* CleaningTipView.swift in Sources */,
+				86D5F99B2C32E227005B0938 /* Item.swift in Sources */,
+				86D5F98A2C32D675005B0938 /* GrandmotherView.swift in Sources */,
+				86D5F9962C32E12A005B0938 /* CustomLongButton.swift in Sources */,
+				86D5F9882C32D561005B0938 /* CustomCubeButton.swift in Sources */,
+				86D5F9942C32E0F0005B0938 /* HealthTipView.swift in Sources */,
+				86D5F9A02C32E2AD005B0938 /* DetailView.swift in Sources */,
+				86D5F98E2C32E025005B0938 /* LifehackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

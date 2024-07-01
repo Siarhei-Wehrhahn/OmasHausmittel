@@ -8,11 +8,27 @@
 import SwiftUI
 
 struct CleaningTipView: View {
+    @EnvironmentObject private var viewModel: ItemViewModel
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List(viewModel.cleaningTips) { item in
+                Button(action: {
+                    viewModel.index = item.index
+                    viewModel.isDetailViewActive = true
+                }) {
+                    Text(item.title)
+                }
+            }
+            .navigationTitle("Reinigungstipps")
+            .sheet(isPresented: $viewModel.isDetailViewActive) {
+                DetailView(item: viewModel.cleaningTips[viewModel.index])
+            }
+        }
     }
 }
 
 #Preview {
     CleaningTipView()
+        .environmentObject(ItemViewModel())
 }
